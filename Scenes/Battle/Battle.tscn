@@ -22,11 +22,29 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
+[node name="PlayerStats" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Power" type="Label" parent="VBoxContainer/PlayerStats"]
+layout_mode = 2
+
+[node name="Life" type="Label" parent="VBoxContainer/PlayerStats"]
+layout_mode = 2
+
 [node name="PlayerDeck" type="HBoxContainer" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 script = ExtResource("2_3ihc8")
 metadata/_custom_type_script = "uid://bhcwqm856nmqn"
+
+[node name="EnemyStats" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Power" type="Label" parent="VBoxContainer/EnemyStats"]
+layout_mode = 2
+
+[node name="Life" type="Label" parent="VBoxContainer/EnemyStats"]
+layout_mode = 2
 
 [node name="EnemyDeck" type="HBoxContainer" parent="VBoxContainer"]
 layout_mode = 2

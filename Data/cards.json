@@ -8,7 +8,7 @@
 			"significator": {"power": 2},
 			"past": {"destroy_self": 1},
 			"present": {"gain_trigger": 1},
-			"future": {"double_power": true},
+			"future": {"power_multiplier": 3},
 			"outcome": {"convert_power_to_damage": true}
 		}
 	},
@@ -58,7 +58,7 @@
 			"past": {"add_trigger": 1},
 			"present": {"add_trigger": 1},
 			"future": {"power": 1},
-			"outcome": {"convert_power_to_damage": true}
+			"outcome": {"power": 1}
 		}
 	}
 ]

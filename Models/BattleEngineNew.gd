@@ -5,6 +5,7 @@ signal trigger_finished(stage: int, trigger_index: int)
 signal battle_log(message: String)
 signal battle_finished(result: Dictionary)
 signal card_resolving(stage: int, trigger_index: int, actor: Player, card: Card)
+signal damage_resolved(player_power: int, enemy_power: int, player_life: int, enemy_life: int)
 
 const MAX_ROUNDS: int = 20
 
@@ -147,6 +148,7 @@ func _run_resolution():
 	player.life -= enemy_power
 	enemy.life -= player_power
 	emit_signal("battle_log", "Resolution: Player %d / Enemy %d" % [player_power, enemy_power])
+	emit_signal("damage_resolved", player_power, enemy_power, player.life, enemy.life)
 
 
 func _cleanup(player: Player):

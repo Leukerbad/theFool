@@ -1,0 +1,32 @@
+[
+	{
+		"id": "fool",
+		"name_key": "arcana_fool",
+		"desc_key": "arcana_fool_desc",
+		"params": { "repeat_first_trigger": 1 }
+	},
+	{
+		"id": "hermit",
+		"name_key": "arcana_hermit",
+		"desc_key": "arcana_hermit_desc",
+		"params": { "fixed_trigger_count": 1, "power_multiplier": 2 }
+	},
+	{
+		"id": "hanged_man",
+		"name_key": "arcana_hanged_man",
+		"desc_key": "arcana_hanged_man_desc",
+		"params": { "fixed_trigger_count": 1, "power_multiplier": 2 }
+	},
+	{
+		"id": "death",
+		"name_key": "arcana_death",
+		"desc_key": "arcana_death_desc",
+		"params": { "fixed_trigger_count": 1, "power_multiplier": 2 }
+	},
+	{
+		"id": "moon",
+		"name_key": "arcana_moon",
+		"desc_key": "arcana_moon_desc",
+		"params": { "fixed_trigger_count": 1, "power_multiplier": 2 }
+	}
+]

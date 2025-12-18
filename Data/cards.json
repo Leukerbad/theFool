@@ -1,0 +1,64 @@
+[
+	{
+		"id": "death",
+		"name_key": "card_death_name",
+		"desc_key": "card_death_desc",
+		"type": "minor",
+		"position_effects": {
+			"significator": {"power": 2},
+			"past": {"destroy_self": 1},
+			"present": {"gain_trigger": 1},
+			"future": {"double_power": true},
+			"outcome": {"convert_power_to_damage": true}
+		}
+	},
+	{
+		"id": "chariot",
+		"name_key": "card_chariot_name",
+		"desc_key": "card_chariot_desc",
+		"type": "minor",
+		"position_effects": {
+			"significator": {"triggers": 1},
+			"past": {"power": 1},
+			"present": {"gain_trigger": 1},
+			"future": {"power_multiplier": 2},
+			"outcome": {"convert_power_to_damage": true}
+		}
+	},
+	{
+		"id": "fuel_sigil",
+		"name_key": "card_fuel_sigil_name",
+		"desc_key": "card_fuel_sigil_desc",
+		"type": "minor",
+		"position_effects": {
+			"past": {"power": 1},
+			"present": {"power": 2},
+			"future": {"power": 2},
+			"outcome": {"power": 0}
+		}
+	},
+	{
+		"id": "mirror_orb",
+		"name_key": "card_mirror_orb_name",
+		"desc_key": "card_mirror_orb_desc",
+		"type": "minor",
+		"position_effects": {
+			"past": {"duplicate_trigger": true},
+			"present": {"duplicate_power": true},
+			"future": {},
+			"outcome": {}
+		}
+	},
+	{
+		"id": "grave_anchor",
+		"name_key": "card_grave_anchor_name",
+		"desc_key": "card_grave_anchor_desc",
+		"type": "minor",
+		"position_effects": {
+			"past": {"add_trigger": 1},
+			"present": {"add_trigger": 1},
+			"future": {"power": 1},
+			"outcome": {"convert_power_to_damage": true}
+		}
+	}
+]
